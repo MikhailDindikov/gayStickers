@@ -194,14 +194,14 @@ class _GayDetailScreenState extends State<GayDetailScreen> {
                       _isGayLoad.value = true;
                       final pwlsGay = await Apphud.paywalls();
                       print(pwlsGay?.paywalls.first.products!
-                          .where((element) => element.productId == 'pack_turbo')
+                          .where((element) => element.productId == 'sticker_pack')
                           .toList()
                           .first);
 
                       final purGay = await Apphud.purchase(
                         product: pwlsGay?.paywalls.first.products!
                             .where((fodpofdopfd) =>
-                                fodpofdopfd.productId == 'pack_turbo')
+                                fodpofdopfd.productId == 'sticker_pack')
                             .toList()
                             .first,
                       );

@@ -149,7 +149,7 @@ class _GaySystemScreenState extends State<GaySystemScreen> {
 
                     if (restPuGay.purchases.isNotEmpty) {
                       for (final pu in restPuGay.purchases) {
-                        if (pu.productId == 'premium') {
+                        if (pu.productId == 'sticker_pack') {
                           failPuGay = false;
                           final _gayPrefs =
                               await SharedPreferences.getInstance();

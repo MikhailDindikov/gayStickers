@@ -8,7 +8,7 @@ import 'package:get/get.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  //await Apphud.start(apiKey: 'app_Nw4WCuDeTSmDiuZETrtFo9mciUFu4d');
+  await Apphud.start(apiKey: 'app_GdpkKz8S4buDPoPJoBFz8CZxY3SCfx');
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 
   runApp(const MyGayApp());

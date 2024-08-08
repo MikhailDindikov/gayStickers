@@ -18,12 +18,12 @@ class _GayInfoScreenState extends State<GayInfoScreen> {
     String llllWGay = '';
     if (widget.gayInfoScreen == 'Privacy Policy') {
       llllWGay =
-          'https://docs.google.com';
+          'https://docs.google.com/document/d/15hEAX5vdHozKSvW602YaO7q4un6iWclQ4p1ataACVTA/edit?usp=sharing';
     } else if (widget.gayInfoScreen == 'Terms of Use') {
       llllWGay =
-          'https://docs.google.com';
+          'https://docs.google.com/document/d/1IKrUJd-qDCnK-PvyULC4c4ddZ8VQkWoKTPuZxuiwx3s/edit?usp=sharing';
     } else {
-      llllWGay = 'https://sites.google.com';
+      llllWGay = 'https://sites.google.com/view/wakaaps/support-form';
     }
 
     controllerW = WebViewController()
